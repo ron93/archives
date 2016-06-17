@@ -1,0 +1,179 @@
+/*================================================================header 
+==================================================================*/
+
+.back {
+    height: 600px;
+    background: url(../img/big_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+blockquote {
+    width: 300px;
+    margin-left: 40px;
+}
+.lower {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 300px;
+    margin-left: 40px;
+}
+.back blockquote {
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive;
+}
+header {
+    height: 100px;
+    background-color: darkgray;
+    height: 180px;
+}
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+.top p {
+    float: right;
+}
+
+/*================================================================
+SECTIONS
+=================================================================*/
+
+
+/*article_1*/
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: floralwhite;
+}
+.logo li {
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+}
+
+/*article_2
+*/
+
+.s_1 {
+    margin-top: 30px;
+    padding-left: 50px;
+    width: 800px;
+    float: left;
+    background-color: floralwhite;
+}
+.title_1 img {
+    padding-left: 150px;
+}
+
+/*section*/
+
+.title_2 {
+    padding-top: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    text-align: justify;
+    background-color: floralwhite;
+}
+.title_2 img {
+    float: left;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.s_2 {
+    float: right;
+    padding-right: 50px;
+    width: 850px;
+}
+.title_3 {
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    background-color: floralwhite;
+}
+
+/*================================================================heading
+==================================================================*/
+
+.post_h {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-align: justify;
+    background-color: floralwhite;
+}
+.post_h a {
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: floralwhite;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/*
+==================================================================
+body
+==================================================================*/
+
+body {
+    margin: 0px;
+}
+.top {
+    background: #e3e3e3;
+}
+
+/*ad*/
+
+.ad {
+    font-size: 20px;
+    text-align: center;
+    background-color: saddlebrown;
+    height: 120px;
+}
+.ad p {
+    padding-top: 50px;
+    color: floralwhite;
+}
+
+/*================================================================FOOTER
+==================================================================*/
+
+footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    background: rgb(50, 50, 50);
+    margin-left: 5px;
+    margin-right: 5px;
+    color: floralwhite;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+footer p {
+    color: yellow;
+}
+
+/*================================================================FONTS
+==================================================================*/
+
+.lower {
+    font-family: 'Lobster', cursive;
+}
+h2,
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p {
+    font-family: 'Trochut', cursive;
+}
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
