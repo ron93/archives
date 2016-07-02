@@ -48,12 +48,17 @@ imput{
     height: 50px;
 }
 /*button*/
-.btn{
-    height: 20px;
-    width: 40px;
+.buy{
+    height: 40px;
+    width: 50px;
     border-radius: 10px;
+    margin-left: 150px;
+}
+.btn{
+   
+    
     background-color: aqua;
-margin-left: 150px;
+
 }
 
 
