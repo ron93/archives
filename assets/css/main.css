@@ -22,7 +22,7 @@ background: whitesmoke;
 .release{
     
     padding-top: 20px;
-    padding-left: 60px;
+   text-align: center;
     
 }
 /*info*/
@@ -36,7 +36,7 @@ h2{
 }
 /*form*/
 form{
-    padding-left: 50px;
+ padding-left: 150px;
 }
 label{
     padding: 20px;
