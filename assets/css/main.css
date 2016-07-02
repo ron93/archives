@@ -35,10 +35,22 @@ h2{
     text-align: center
 }
 /*form*/
+form{
+    padding-left: 50px;
+}
 label{
     padding: 20px;
     display: block;
 }
 imput{
     padding-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+/*button*/
+.btn{
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: aqua;
 }
