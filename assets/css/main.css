@@ -1,13 +1,18 @@
 /*background*/
 body{
-    background-image: url(/assets/img/prison-break-wallpaper_91767-1600x1200.jpg);
+    background-image: url(/assets/img/find.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 /*content*/
 .content{
-    border-left: 2px solid darkgrey;
-    height: 300px;
-    width: 100%
+    border: 1px solid aqua;
+    height: 200px;
+    width:500px
+    color: aqua;
+    opacity: 0.6;
+}
+/*release*/
+.release{
     
 }
