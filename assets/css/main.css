@@ -22,7 +22,7 @@ background: whitesmoke;
 .release{
     
     padding-top: 20px;
-   text-align: center;
+ text-align: center;
     
 }
 /*info*/
@@ -36,7 +36,7 @@ h2{
 }
 /*form*/
 form{
- padding-left: 150px;
+ padding-left: 50px;
 }
 label{
     padding: 20px;
@@ -53,6 +53,7 @@ imput{
     width: 40px;
     border-radius: 10px;
     background-color: aqua;
+margin-left: 150px;
 }
 
 
