@@ -34,3 +34,11 @@ background: whitesmoke;
 h2{
     text-align: center
 }
+/*form*/
+label{
+    padding: 20px;
+    display: block;
+}
+imput{
+    padding-top: 10px;
+}
