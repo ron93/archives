@@ -54,3 +54,12 @@ imput{
     border-radius: 10px;
     background-color: aqua;
 }
+
+
+/*FONTS*/
+span{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    font-family: 'Simonetta', cursive;
+}
