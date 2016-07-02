@@ -25,6 +25,9 @@ background: whitesmoke;
  text-align: center;
     
 }
+.res{
+    font-size: 40px;
+}
 /*info*/
 .tell{
     padding: 50px;
