@@ -23,3 +23,12 @@ h1:hover{
 #enter{
     display: none;
 }
+
+/*chat box*/
+.mess{
+    height: 15em;
+    width: 50%;
+}
+.chat-box input{
+    margin-left: 25%;
+}
