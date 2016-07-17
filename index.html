@@ -29,7 +29,7 @@
        
        <div class="small-8 large-expand columns">
         
-         <div class="row">
+         <div class="row expanded top">
          <div class="small-4 large-expand columns">
          
          
@@ -39,11 +39,11 @@
           
           
 
-         <div class="small-4 large-expand sign-in columns">
+         <div class="small-4 large-expand  columns">
          
          <!--         sign up-->
-        
-          <a id=reg href="#">sign up</a>
+       
+          <a id="sign-up" href="#">sign up</a>
           <div id="register">
               <form>
                   <input type="text" placeholder="username">
@@ -53,20 +53,24 @@
                   <input type="submit">
               </form>
           </div>
-         
+            
+             
+             
 <!--   sign in      -->
-         
-          <a href="#">sign in</a>
+       
+          <a id="sign-in" href="#">sign in</a>
           <div>
               <form id="enter">
                   <input type="text" placeholder="username">
                   <input type="password" placeholder="enter password" >
-                  <input type="submit">
+                  
               </form>
+              <input type="submit"  onclick="showInput();>
+              <label> Conversation</label>
+               <span id='display'></span>
           </div>
-            
-            
              </div>
+            
              
            </div><!--end sign up row-->
      

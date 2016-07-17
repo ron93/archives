@@ -1,4 +1,10 @@
 $(document).foundation()
-function show{
-    document.getElementById('register').style.display="block";
-}
+//message typed display
+ function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("messege").value;
+    }
+
+
+
+
