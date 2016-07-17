@@ -89,11 +89,21 @@ h1:hover{
     margin-left: 25%;
     opacity: 0.8;
 }
+.mid label{
+    color:  #1C781A; 
+}
+
 
 /*FOOTER*/
-footer{
+/*footer{
     height: 10em;
     width: 100%;
     background-color:  #99C797; 
     margin-bottom: 0px;
+}*/
+
+
+/*FONTS*/
+body{
+    font-family: 'Roboto', sans-serif;
 }

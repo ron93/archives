@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
+   <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +44,7 @@
          
          <!--         sign up-->
        
-          <a id="sign-up" href="#">sign up</a>
+          <a id="popup" onclick="div_show()" href="#">sign up</a>
           <div id="register">
               <form>
                   <input type="text" placeholder="username">
@@ -58,16 +59,15 @@
              
 <!--   sign in      -->
        
-          <a id="sign-in" href="#">sign in</a>
+          <a  id="popup" onclick="div_show()" href="#">sign in</a>
           <div>
               <form id="enter">
                   <input type="text" placeholder="username">
                   <input type="password" placeholder="enter password" >
-                  
+                  <input type="submit">
               </form>
-              <input type="submit"  onclick="showInput();>
-              <label> Conversation</label>
-               <span id='display'></span>
+              
+             
           </div>
              </div>
             
@@ -82,8 +82,14 @@
         <form name="message">
 <!--         <input type="text" id="name" placeholder="username"> -->
         <input class="mess" type="text" id="messege" placeholder="message">
-           <input  type="submit" placeholder="send"> 
+            
             </form> 
+            <input  type="submit" onclick="showInput()";>
+            
+            
+             <label> Conversation</label>
+               <span id="display"></span>
+             
         </div>
        </div><!-- end message row-->
            </div>
