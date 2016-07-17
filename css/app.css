@@ -1,9 +1,27 @@
+
+body{
+    
+}
+/*body container*/
+.container{
+    height: 50em;
+    width: 100%;
+     border: 1px solid #99C797; 
+   background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
 /*SIDEBAR*/
 .side-bar{
     height: 50em;
-    border: 1px solid #1C781A; 
+    border: 1px solid #99C797; 
+    background-color: #99C797;
+    opacity: 0.8;
 }
-
+nav a{
+    font-size: 100%;
+}
 /*h1*/
 h1{
 font-size: 40px;
@@ -15,7 +33,7 @@ h1:hover{
     text-decoration: underline;
 }
 .logo{
-    width: 80%;
+    width: 60%;
     height: 7em;
     background-color: #18A422;
     margin-bottom: 10em;
@@ -41,7 +59,17 @@ h1:hover{
 .mess{
     height: 15em;
     width: 100%;
+    border: 1px solid #B7E2B5;
 }
 .chat-box input{
     margin-left: 25%;
+    opacity: 0.8;
+}
+
+/*FOOTER*/
+footer{
+    height: 10em;
+    width: 100%;
+    background-color:  #99C797; 
+    margin-bottom: 0px;
 }
