@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
+<!-- fireBASE link -->
+ <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+  
+  
    <link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -78,19 +82,22 @@
 <!--       message-->
        
        <div class="row mid">
+       
         <div class="small-8 large-expand chat-box  columns">
-        <form name="message">
-<!--         <input type="text" id="name" placeholder="username"> -->
-        <input class="mess" type="text" id="messege" placeholder="message">
-            
-            </form> 
-            <input  type="submit" onclick="showInput()";>
+       
+            <textarea class="mess" type="text" id="messege" placeholder="message"></textarea>
+            <input  type="submit" value="send message" class="button large radius" onclick="addMessage();">
+          
             
             
-             <label> Conversation</label>
-               <span id="display"></span>
+            <div id="display">
+                
+             </div>
+            
              
         </div>
+        
+         
        </div><!-- end message row-->
            </div>
            
@@ -104,6 +111,40 @@
       </div><!--   end body row-->
   
 
+<script type="text/javascript">
+            var titles = [];
+            var messageInput = document.getElementById("messege");
+            var messageBox = document.getElementById("display");
+
+            function addMessage() {
+
+                if (messege.value.length < 2) {
+                    alert("Please enter a message");
+                } else {
+                    
+                    titles.push(messege.value);;
+                    clearAndShow();
+
+                }
+
+            }
+
+            function clearAndShow() {
+                messege.value = "";
+
+                messageBox.innerHTML = "";
+                messageBox.innerHTML += "Message : "+ titles.join("<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") + "<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        </script>
+        
+        
+<!--       end script to display messege -->
+
+
+
+
+
+
 <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -111,7 +152,7 @@
     apiKey: "AIzaSyDtEX3G7b-EZ57DicTTBuj8cq_fTaSeURM",
     authDomain: "chaty-90d55.firebaseapp.com",
     databaseURL: "https://chaty-90d55.firebaseio.com",
-    storageBucket: "",
+    storageBucket: "chaty-90d55.appspot.com",
   };
   firebase.initializeApp(config);
 </script>

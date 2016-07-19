@@ -66,10 +66,12 @@ h1:hover{
 }
 #register{
     display: none;
+    cursor: pointer;
     
 }
 #enter{
     display: none;
+    cursor: pointer;
 }
 /*MID*/
 .mid{
