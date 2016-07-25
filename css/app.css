@@ -4,4 +4,20 @@ background-color:#000000;
     
 }
 
-/**/
+/*nav*/
+.main{
+    	position: relative;
+	width: 100%;
+	
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+z-index: 1;
+position: absolute;    
+}
+nav{
+    color: #ADFF2F;
+     transform: translate(-50%, -50%);
+    z-index: 999;
+    position: absolute;
+}

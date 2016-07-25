@@ -146,7 +146,8 @@
             }});
     }
 
-    // Canvas manipulation
+    // Canvas manipulation 
+    //line color(connecting dots)
     function drawLines(p) {
         if(!p.active) return;
         for(var i in p.closest) {
