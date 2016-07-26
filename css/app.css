@@ -1,15 +1,17 @@
 /*body*/
 body{
 background-color:#000000;
+    height: 900px;
     
 }
 
-h1{
+h1,h2{
     color : #fff;
 }
 
 /*nav*/
 .main{
+/*
     	position: relative;
 	width: 100%;
 	
@@ -18,6 +20,7 @@ h1{
 	background-position: center center;
 
 position: absolute;    
+*/
 }
 nav{
    
@@ -30,3 +33,13 @@ nav a{
 
 
 /*portfolio*/
+
+figure,img{
+    height: 300px;
+    width: 350px;
+    border: 1px solid #fff;
+}
+img:hover{
+    background-color: grey;
+    opacity: 0.8;
+}
