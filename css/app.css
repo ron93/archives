@@ -4,6 +4,9 @@ background-color:#000000;
 /*    height: 900px;*/
     
 }
+.container{
+    background-color: dimgrey;
+}
 
 h1,h2,h3{
     color : #fff;
@@ -26,7 +29,18 @@ h3{
 
 position: absolute;    
 */
+     
+    
 }
+.back{
+    background-image: url(../img/back.png);
+    background-size:cover;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+  
+}
+
 nav{
    
 
