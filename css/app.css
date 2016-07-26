@@ -4,6 +4,10 @@ background-color:#000000;
     
 }
 
+h1{
+    color : #fff;
+}
+
 /*nav*/
 .main{
     	position: relative;
@@ -16,8 +20,10 @@ background-color:#000000;
 position: absolute;    
 }
 nav{
-    color: #ADFF2F;
-  
-    z-index: 999;
+   
+
     position: absolute;
+}
+nav a{
+    color: #fff;
 }

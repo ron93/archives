@@ -1,6 +1,6 @@
 (function() {
 
-    var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
+    var width, height, container , canvas, ctx, points, target, animateHeader = true;
 
     // Main
     initHeader();
@@ -154,7 +154,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(255,255,0,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(225,225,225,'+ p.active+')';
             ctx.stroke();
         }
     }
