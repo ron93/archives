@@ -5,10 +5,15 @@ background-color:#000000;
     
 }
 
-h1,h2{
+h1,h2,h3{
     color : #fff;
 }
-
+h2{
+    font-size:50px;
+}
+h3{
+    font-size: 15px;
+}
 /*nav*/
 .main{
 /*
@@ -30,16 +35,20 @@ nav{
 nav a{
     color: #fff;
 }
-
+/*about*/
+#about{
+    margin-top: 50px;
+}
 
 /*portfolio*/
 
 figure,img{
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    width: 380px;
     border: 1px solid #fff;
 }
 img:hover{
-    background-color: grey;
+    background-color: aqua;
     opacity: 0.8;
 }
+
