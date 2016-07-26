@@ -1,7 +1,7 @@
 /*body*/
 body{
 background-color:#000000;
-    height: 900px;
+/*    height: 900px;*/
     
 }
 
@@ -37,14 +37,18 @@ nav a{
 }
 /*about*/
 #about{
-    margin-top: 50px;
+/*    margin-top: 50px;*/
 }
-
+p,li{
+    color: white;
+}
 /*portfolio*/
 
+
+
 figure,img{
-    height: 320px;
-    width: 380px;
+    height: 100%;
+    width:100%;
     border: 1px solid #fff;
 }
 img:hover{
@@ -52,3 +56,19 @@ img:hover{
     opacity: 0.8;
 }
 
+/*contact*/
+
+label{
+    color: #fff;
+}
+.cont{
+    margin-left: -200px;
+    
+}
+
+button{
+    background-color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 50px;
+}
