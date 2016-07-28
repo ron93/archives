@@ -1,13 +1,17 @@
 /*body*/
 body{
-background-color:#000000;
+background-color:grey;
 /*    height: 900px;*/
     
 }
 .container{
     background-color: dimgrey;
+    border: 1px solid #000000;
+    background-color: dimgray;
 }
-
+h1{
+    font-size: 20px;
+}
 h1,h2,h3{
     color : #fff;
 }
@@ -32,15 +36,17 @@ position: absolute;
      
     
 }
-.back{
-    background-image: url(../img/back.png);
-    background-size:cover;
+#main{
+   
+ 
+/*
     height: 400px;
     width: 100%;
+*/
     background-repeat: no-repeat;
   
 }
-
+/*nav*/
 nav{
    
 
@@ -48,6 +54,7 @@ nav{
 }
 nav a{
     color: #fff;
+    margin-left: 50px;
 }
 /*about*/
 #about{
