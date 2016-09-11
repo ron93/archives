@@ -13,6 +13,8 @@ BOT_NAME = 'imgur'
 
 SPIDER_MODULES = ['imgur.spiders']
 NEWSPIDER_MODULE = 'imgur.spiders'
+IMAGES_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
+IMAGES_STORE = '/Documents/python/scrappy-projects/pic_scraper'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
