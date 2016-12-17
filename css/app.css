@@ -1,0 +1,32 @@
+/*HEADER*/
+.navbar{
+    height: 10vh;
+    text-align: center;
+    background-color: #D50000;
+}
+
+
+.navbar-collapse{
+    text-align: center;
+}
+.nav li{
+    margin: 20px;
+}
+
+/*container*/
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+
+/*about*/
+
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
