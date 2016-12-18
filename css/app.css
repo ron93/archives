@@ -4,7 +4,7 @@
   
 }
 .navbar{
-    height: 10vh;
+    height: 13vh;
     text-align: center;
          font-family: 'Francois One', sans-serif;
 
@@ -14,7 +14,10 @@
 
 .navbar-collapse{
     text-align: center;
+ 
 }
+
+
 .nav li{
     margin: 28px;
 }
