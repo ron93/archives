@@ -13,10 +13,15 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+ <!-- Custom CSS -->
     <link href="css/app.css" rel="stylesheet">
 
+   <!-- FAV AND TOUCH ICONS   -->
+       <link rel="stylesheet" href="icons/styles.css">
+
+    <!--gallery-->
+    <link href="css/component.css" rel="stylesheet">
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,17 +33,21 @@
 
 <body>
 
+    
+
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav id="top" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="col-md-4 navbar-header">
+<!--
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+-->
                 <a class="navbar-brand" href="#">Anderson<br>Art</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,11 +74,11 @@
     
     
     <!-- Page Content -->
-    <div class="container">
         
 <!--        about-->
         
         <div class="row" id="about">
+            <h1  class="text-center">ABOUT</h1>
             <div class="col-lg-12 col-md-12 about">
                 <p class="text-center"> Thank you for visiting my gallery.</p>
                 <p class="text-center">
@@ -85,64 +94,127 @@
         
 <!--        gallery-->
 
-        <div class="row">
+        <div class="row"      id="gallery" >
 
             <div class="col-lg-12">
-                <h1 class="page-header text-center">My Art Gallery</h1>
+                <h1 class="text-center">GALLERY</h1>
             </div>
+          
 <!--row 1-->
             <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+            
+                <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art1.jpg"></div>
+						<figcaption>
+							<h3>Fecundity of Autumn</h3>
+							<span>Don Anderson</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
+                
             </div>
             
             
              <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                 <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art2.jpg"></div>
+						<figcaption>
+							<h3>Caught out</h3>
+							<span>Don Anderson</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
             </div>
+            
+            
 <!--            row2-->
              <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art3.jpg"></div>
+						<figcaption>
+							<h3>Rave</h3>
+							<span>Don Anderson</span>
+						
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
             </div>
             
             
              <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art4.JPG"></div>
+						<figcaption>
+							<h3>Domestic row</h3>
+							<span>By Don Anderson</span>
+						
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
             </div>
             
             
 <!--            row3-->
              <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                 <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art5.JPG"></div>
+						<figcaption>
+							<h3>Norfolk cpast</h3>
+							<span>By Don Anderson</span>
+						
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
             </div>
+            
              <div class="col-lg-6 col-md-6 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><img src="img/art6.JPG"></div>
+						<figcaption>
+							<h3>Love happens</h3>
+							<span>By Don Anderson</span>
+						
+						</figcaption>
+					</figure>
+				</li>
+                </ul>
             </div>
            
         </div>
-
+        </div>
 <!--        <hr>-->
+<div class="text-center">
+       <a href="http://community.saa.co.uk/gallery/all-artworks-by-don-anderson_24032601.html?oscsid=e0a05qjt0058es3cpj0kq91oq0">View More</a>
+        </div>
 
-       
-
-    </div>
-    <!-- /.container -->
+   
  <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-lg-12 social">
+<i class="icon-social-facebook-circle"></i>
+                    <i class="icon-social-twitter-circle"></i>
+                    <i class="icon-social-googleplus-circle"></i>
+                    <i class="icon-icon-mail-alt"></i>
                 </div>
             </div>
         </footer>
@@ -151,6 +223,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
 
 </body>
 

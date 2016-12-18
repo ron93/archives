@@ -1,8 +1,13 @@
 /*HEADER*/
+#top{
+     color: black;
+  
+}
 .navbar{
     height: 10vh;
     text-align: center;
-    background-color: #D50000;
+     
+    background-color: #607D8B;
 }
 
 
@@ -10,28 +15,66 @@
     text-align: center;
 }
 .nav li{
-    margin: 20px;
+    margin: 28px;
 }
 
 /*container*/
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    overflow-x: hidden;
+    background-color: #ECEFF1;
+   
 }
 
 
 /*about*/
 
 
-.thumb {
-    margin-bottom: 30px;
+
+/*gallery*/
+#gallery{
+    background-color: #CFD8DC;
 }
+
+.thumb{
+    margin-top:  -10vh;
+padding-left: 20vh;
+    
+}
+
+
+figure{
+    height: 40vh;
+    width: 30vw;
+}
+.grid img{
+    height:40vh;
+    width: 20vw;
+}
+
+
+
+
+/*button*/
+
+
 
 
 /*footer*/
 
 footer {
-    background-color: grey;
+    background-color: #546E7A;
     height: 20vh;
-/*    margin: 50px 0;*/
+
+}
+.social{
+        margin-top: 5vh;
+
+    
+}
+ i{
+    font-size: 50px;
+    
+    margin: 10vw;
 }
