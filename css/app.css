@@ -7,7 +7,7 @@
     height: 10vh;
     text-align: center;
      
-    background-color: #607D8B;
+    background-color: #37474F;
 }
 
 
@@ -26,10 +26,22 @@ body {
     background-color: #ECEFF1;
    
 }
-
+hr{
+    color: black;
+}
 
 /*about*/
+#about{
+    padding-left: 10vw;
+    padding-right: 10vw;
 
+}
+.about{
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+        display: block;
+
+}
 
 
 /*gallery*/
