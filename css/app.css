@@ -47,8 +47,14 @@ hr{
 /*gallery*/
 #gallery{
     background-color: #CFD8DC;
-}
+        padding-top: 5vh;
 
+}
+#galley h1{
+   margin-bottom: 4vh;
+}
+.gallery{
+}
 .thumb{
     margin-top:  -10vh;
 padding-left: 20vh;
@@ -70,7 +76,22 @@ figure{
 
 /*button*/
 
+.btn-area{
+    height: 20vh
+    
+   
+}
+.btn{
+    height: 7vh;
+    width: 15vh;
+    border: 1px solid #37474F;
+    margin-top: 7vh;
+    padding-top: 1vh;
+}
 
+.btn:hover{
+    background: #546E7A;
+}
 
 
 /*footer*/
