@@ -1,4 +1,9 @@
 /*gen styles*/
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .border-line{
     background: red;
     height: 7px; 
@@ -76,3 +81,42 @@ button a{
     padding-right: 7%;
     margin-right:  5%;
 }
+
+
+/*GALLERY*/
+
+.gallery {
+    margin-top:  5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7vh;
+}
+.gallery-title{
+    padding-bottom: 3vh;
+}
+
+/*food gallery*/
+.food-gallery{
+        border:  1px solid grey;
+
+}
+
+/*img place holders*/
+.food-one ,.food-three, .food-five{
+ background: grey; 
+    height: 50vh;
+
+}
+.food-two,.food-four,.food six{
+    background: white;
+    height: 50vh;
+
+}
+/*FOOTER*/
+
+footer{
+    height: 20vh;
+    background: #050505;
+}
+
+
