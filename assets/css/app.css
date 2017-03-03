@@ -35,4 +35,9 @@ header{
 .banner{
     background: #B6B6B6;
     height: 60vh;
+    
+}
+.banner-message{
+margin-left: 15%;
+    margin-top: 5%;
 }
