@@ -1,5 +1,7 @@
 /*gen styles*/
-
+body{
+    overflow-x:hidden;
+}
 
 
 /*HEADER*/
@@ -34,10 +36,39 @@ header{
 /*banner*/
 .banner{
     background: #B6B6B6;
-    height: 60vh;
+    height: 40vh;
     
 }
 .banner-message{
 margin-left: 15%;
     margin-top: 5%;
+}
+
+/*PRODUCT*/
+.product{
+    padding-top: 10vh;
+}
+h3{
+    text-align: center;
+    margin-top: 2vh;
+}
+/*products container*/
+figure{
+    height:  40vh;
+    width: 30vh;
+    border:1px solid black;
+    margin: 1vh;
+}
+
+.empty-edge{
+/*    empty div on the to format product images*/
+}
+/*latest products*/
+.latest{
+    margin-top: 5vh;
+}
+/*popular products*/
+
+.popular{
+    margin-top: 5vh;
 }
