@@ -1,0 +1,32 @@
+/*gen styles*/
+
+
+
+/*HEADER*/
+header{
+    padding-top:  2vh;
+    background: whitesmoke;
+}
+
+/*title*/
+.title{
+    
+    
+}
+.title h1{
+    margin-left:  40%;
+    border-right: 1px solid grey;
+    font-size:  25px;
+}
+/*nav*/
+.nav{
+    font-size:  15px;
+    padding-top: px;
+}
+
+
+/*banner*/
+.banner{
+    background: #B6B6B6;
+    height: 60vh;
+}
