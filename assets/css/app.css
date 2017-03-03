@@ -2,7 +2,13 @@
 body{
     overflow-x:hidden;
 }
-
+.empty-edge{
+/*    empty div occupying the edge of a section*/
+}
+.split{
+    height: 2px;
+    background:#B6B6B6;
+}
 
 /*HEADER*/
 header{
@@ -47,6 +53,7 @@ margin-left: 15%;
 /*PRODUCT*/
 .product{
     padding-top: 10vh;
+    background: whitesmoke;
 }
 h3{
     text-align: center;
@@ -57,12 +64,10 @@ figure{
     height:  55vh;
     width: 30vh;
     border:1px solid black;
-    margin: 1vh;
+    margin: 1.5%;;
 }
 
-.empty-edge{
-/*    empty div on the to format product images*/
-}
+
 /*latest products*/
 .latest{
     margin-top: 5vh;
@@ -72,3 +77,37 @@ figure{
 .popular{
     margin-top: 5vh;
 }
+
+/*INFO*/
+.info{
+    padding-top:2vh;
+    height: 50vh;
+}
+h4{
+    text-align: center;
+}
+
+.store{
+    padding:  5%;
+    margin: 1.5%;
+}
+ .content{
+    margin-left: 8%;
+}
+/*our store*/
+.store-info {
+  
+    
+}
+/*blog*/
+.store-blog a{
+      font-style: italic;
+    font-size: 20px;
+}
+.store-blog p{
+    padding-left:  15px;
+}
+/*support*/
+
+
+/*FOOTER*/
