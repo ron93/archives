@@ -1,0 +1,122 @@
+/*HEADER*/
+#top{
+     color: black;
+  
+}
+.navbar{
+    height: 13vh;
+    text-align: center;
+         font-family: 'Francois One', sans-serif;
+
+    background-color: #37474F;
+}
+
+
+.navbar-collapse{
+    text-align: center;
+ 
+}
+
+
+.nav li{
+    margin: 28px;
+}
+
+/*container*/
+h1,.btn{
+font-family: 'Bree Serif', serif;
+
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    overflow-x: hidden;
+    background-color: #ECEFF1;
+font-family: 'Taviraj', serif;
+
+   
+}
+hr{
+    color: black;
+}
+
+/*about*/
+#about{
+    padding-left: 10vw;
+    padding-right: 10vw;
+font-size: 17px;
+}
+.about{
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+        display: block;
+
+}
+
+
+/*gallery*/
+#gallery{
+    background-color: #CFD8DC;
+        padding-top: 5vh;
+
+}
+#galley h1{
+   margin-bottom: 4vh;
+}
+.gallery{
+}
+.thumb{
+    margin-top:  -10vh;
+padding-left: 20vh;
+    
+}
+
+
+figure{
+    height: 40vh;
+    width: 30vw;
+}
+.grid img{
+    height:40vh;
+    width: 20vw;
+}
+
+
+
+
+/*button*/
+
+.btn-area{
+    height: 20vh
+    
+   
+}
+.btn{
+    height: 7vh;
+    width: 15vh;
+    border: 1px solid #37474F;
+    margin-top: 7vh;
+    padding-top: 1vh;
+}
+
+.btn:hover{
+    background: #546E7A;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #546E7A;
+    height: 20vh;
+
+}
+.social{
+        margin-top: 5vh;
+
+    
+}
+ i{
+    font-size: 50px;
+    
+    margin: 10vw;
+}
