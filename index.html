@@ -35,8 +35,11 @@
 	<!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
 	<link rel="shortcut icon" href="favicon.ico" />
 
-	<!-- concatenate and minify for production -->
+	<!-- RESET-->
 	<link rel="stylesheet" href="assets/css/reset.css" />
+<!--    bootatrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    
 	<link rel="stylesheet" href="assets/css/app.css" />
 
 	<!--  lets you use un-prefixed properties in your CSS files -->
@@ -51,46 +54,26 @@
 
 <body>
 
-	<header>
+<!--header-->
+	<header class="row">
+<!--title-->
+	<div  class="col-md-4 col-xs-4 title">	
+        <h1><a href="/">Mbugus'</a></h1>
+        </div>
 
-		<h1><a href="/">Page Title</a></h1>
+<!--        nav-->
+        <div class="col-md-8 col-xs-8">
+	<nav class="nav nav-inline">
 
-		<nav>
+<a class="nav-link active" href="#">OUR STORY</a>
+<a class="nav-link" href="#">MENU</a>
+<a class="nav-link" href="#">NEWS</a>
+<a class="nav-link" href="#">REVIEWS</a>
+        
 
-			<ol>
-				<li><a href="">Nav Link 1</a></li>
-				<li><a href="">Nav Link 2</a></li>
-				<li><a href="">Nav Link 3</a></li>
-			</ol>
-
-		</nav>
-
-	</header>
-
-	<article>
-
-		<h1>Article Header</h1>
-
-		<p>Etiam pretium odio eu mi convallis vitae varius neque pharetra. Nulla vestibulum nisi ut sem cursus sed mattis nisi egestas.</p>
-
-		<h2>Article Subhead</h2>
-
-		<p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
-
-	</article>
-
-	<aside>
-
-		<h2>Sidebar Content</h2>
-
-	</aside>
-
-	<footer>
-
-		<p><small>&copy; Copyright Your Name Here 2014. All Rights Reserved.</small></p>
-
-	</footer>
-
+</nav>
+        </div>
+    </header>
 
 <!-- jquery -->
 <script src="assets/js/libs/libs/jquery/1.11.3/jquery.min.js"></script>

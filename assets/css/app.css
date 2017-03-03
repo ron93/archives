@@ -1,0 +1,20 @@
+/*gen styles*/
+
+/*HEADER*/
+header{
+background:white;
+    padding-top: 3vh;
+}
+/*title*/
+h1{
+    text-align: center;
+}
+
+/*nav*/
+
+.nav{
+    margin-left:  20%;
+}
+.nav a{
+    margin-left: 5%;
+}
