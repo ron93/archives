@@ -37,5 +37,53 @@ var $container = $( '#mn-container' ),
             return false;
         });
     },
+    
+    
+    //function that adds class(.nm-open) to container to open menu
+    openMenu = function(){
+        
+        $container.addClass('nm-open');
+        
+    },
+    //function that removes classes() to container to close menu
+    closeMenu = function(){
+        
+        $container.removeClass('nm-open nm-nodelay nm-in');
+    },
+    
+    //to show menu item details
+    
+    viewDetails = function( recipe ) {
+
+	var title = recipe.text(),
+		img = recipe.data( 'thumb' ),
+		description = recipe.parent().next().text(),
+		url = recipe.attr( 'href' );
+
+	var $modal = $( '
+' + title + '
+' + description + '
+See the recipex
+' );
+
+	$modal.appendTo( $container );
+
+	var h = $modal.outerHeight( true );
+	$modal.css( 'margin-top', -h / 2 );
+
+	setTimeout( function() {
+
+		$container.addClass( 'nm-in nm-nodelay' );
+
+		$modal.find( 'span.nm-close-modal' ).on( 'click', function() {
+
+			$container.removeClass( 'nm-in' );
+
+		} );
+	
+	}, 0 );
+
+};
+
 
 })();
