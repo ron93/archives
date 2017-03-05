@@ -23,7 +23,7 @@ header{
     
 }
 .title h1{
-    margin-left:  40%;
+    padding-left:  40%;
     border-right: 1px solid grey;
     font-size:  25px;
 }
@@ -34,16 +34,14 @@ header{
 
 /*cart*/
 .cart{
-    height: 7vh;
-    width: 10%;
+    height: 10vh;
+    width: 10vh;
     border: 1px solid grey;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-.cart img{
-    margin-top: 1vh;
-    margin-left:  50%;
-    height: 30px;
-    width: 30px;
+.cart i{
+    padding-left: 40%;
+   font-size: 50px;
 }
 
 /*banner*/
@@ -59,7 +57,7 @@ margin-left: 15%;
 }
 button{
     height: 10vh;
-    width: 10%;
+    width: 15vh;
 }
 
 /*PRODUCT*/
@@ -125,4 +123,7 @@ footer {
     width:  60%;
     margin-left: 20%;
     height: 10vh;
+}
+footer p{
+    text-align: center;
 }
