@@ -133,3 +133,74 @@
 .container.in .right {
 	transform: rotateY(150deg);
 }
+
+.container.in .cover, 
+.container.in .right,
+.container.nodelay .right {
+	transition-delay: 0s;
+}
+/*modal appearance*/
+.container.in .modal {
+	transform: translateZ(0px);
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 1110px) {
+	.mn-container {
+		height: 800px;
+	}
+}
+
+
+@media screen and (max-width: 960px) {
+
+	.mncontainer {
+		width: 100%;
+		height: auto;
+		max-width: 460px;
+	}
+    .mn-wrapper, 
+	.mn-wrapper > div,
+	.mn-wrapper > div > div {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+    
+    	.mn-wrapper > div > div{
+		margin-bottom: 10px;
+		box-shadow: 
+			inset 0 0 0 16px #fff, 
+			inset 0 0 0 17px #e6b741, 
+			inset 0 0 0 18px #fff, 
+			inset 0 0 0 19px #e6b741, 
+			inset 0 0 0 20px #fff, 
+			inset 0 0 0 21px #e6b741,
+			0 3px 5px rgba(0,0,0,0.2);
+	}
+    
+    	.mn-container .mn-back,
+	.mn-container.mn-open .mn-cover,
+	.mn-container.mn-open .mn-right {
+		transform: rotateY(0deg);
+	}
+    	.container .modal {
+		position: fixed;
+		width: 80%;
+		top: 100px;
+		left: 50%;
+		margin: 0 0 0 -40%;
+		transform: translateZ(0px);
+		transition: opacity 0.6s ease-in-out 0s;
+	}
+    	.mn-container.mn-in .mn-cover,
+	.mnmn--container.rm-in .mn-right,
+	.mn-container.mn-in .mn-wrapper {
+		transform: rotateY(0deg);
+		transition-delay: 0s;
+	}
+}
