@@ -118,5 +118,13 @@ footer{
     height: 20vh;
     background: #050505;
 }
-
+.social{
+    text-align: center;
+    
+}
+.social i{
+    color: red;
+    font-size:  40px;
+    margin-top:  3vh;
+}
 
