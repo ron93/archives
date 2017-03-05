@@ -3,7 +3,7 @@
 body{
     overflow-x: hidden;
     overflow-y: hidden;
-    background: white;
+/*    background: white;*/
 }
 
 
@@ -29,7 +29,7 @@ h1{
 
 /*banner*/
 .banner{
-    background-image: url(../img/pexels-photo-262918.jpeg);
+    background-image: url(../img/background.jpeg);
     background-position: center;
     background-size: cover;
     height:  70vh;
@@ -93,7 +93,7 @@ button a{
     margin-top:  5vh;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 .gallery-title{
     padding-bottom: 3vh;
@@ -101,19 +101,19 @@ button a{
 
 /*food gallery*/
 .food-gallery{
-        border:  1px solid grey;
+       
 
 }
 
 /*img place holders*/
-.food-one ,.food-three, .food-five{
- background: grey; 
+.food{
+/* background: grey; */
     height: 50vh;
-
+    
 }
-.food-two,.food-four,.food six{
-    background: white;
+.food img{
     height: 50vh;
+    width: 100%;
 
 }
 /*FOOTER*/
