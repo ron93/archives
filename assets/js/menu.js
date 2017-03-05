@@ -12,5 +12,30 @@ var $container = $( '#mn-container' ),
 	$details = $container.find( 'a.mn-viewdetails' ),
     
     
+    //event for openi/closing menu and showing modal(details)
+    init = function(){
+        
+        initEvent();
+        
+    },
+    initEvent = function(){
+        $open.on('click', function(event){
+            
+            openMenu();
+            return false;
+        });
+        
+        $close.on('click', function(event){
+            
+            closeMenu();
+            return false;
+        });
+        
+        $details.on('click',function(){
+            $container.removeClass('mn-in').children('div.mn-modal').remove();
+            viewDetails($(this));
+            return false;
+        });
+    },
 
 })();
