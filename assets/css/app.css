@@ -13,8 +13,10 @@ body{
 /*HEADER*/
 header{
     padding-top:  2vh;
-    background: whitesmoke;
-    padding-bottom: 2vh;
+    background: #ffffff;
+/*    padding-bottom: 2vh;*/
+      z-index: 100;
+    position: sticky;
 }
 
 /*title*/
@@ -34,7 +36,7 @@ header{
 
 /*cart*/
 .cart{
-    height: 10vh;
+    height: 8vh;
     width: 10vh;
     border: 1px solid grey;
     border-radius: 15px;
