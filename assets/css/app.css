@@ -3,11 +3,9 @@
 body{
     overflow-x: hidden;
     overflow-y: hidden;
+    background: white;
 }
-.border-line{
-    background: red;
-    height: 7px; 
-}
+
 
 /*HEADER*/
 header{
@@ -31,8 +29,11 @@ h1{
 
 /*banner*/
 .banner{
-    height:  60vh;
-    background:  grey;
+    background-image: url(../img/pexels-photo-262918.jpeg);
+    background-position: center;
+    background-size: cover;
+    height:  70vh;
+/*    background:  grey;*/
 }
 
 /*MENU*/
@@ -49,12 +50,15 @@ h2{
 .menu-title{
     height: 8vh;
     width:  10%;
-    background: red;
+    background: #929292;
     margin-left: 45%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+.border-line{
+    background: #929292;
+    height: 7px; 
+}
 /*menu card*/
 .menu-card{
     height:  40vh;
@@ -123,7 +127,7 @@ footer{
     
 }
 .social i{
-    color: red;
+    color: #929292;
     font-size:  40px;
     margin-top:  3vh;
 }
