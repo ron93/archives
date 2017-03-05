@@ -14,6 +14,7 @@ body{
 header{
     padding-top:  2vh;
     background: whitesmoke;
+    padding-bottom: 2vh;
 }
 
 /*title*/
@@ -79,42 +80,53 @@ figure{
 }
 
 /*INFO*/
-.info{
+
+.info {
     padding-top:2vh;
     height: 50vh;
 }
-h4{
-    text-align: center;
+
+h4 {
+/*    text-align: center;*/
 }
 
+/*
 .store{
     padding:  5%;
     margin: 1.5%;
 }
- .content{
-    margin-left: 8%;
+.store-info,.store-blog{
+    border-right: 1px solid grey;
+    height: 30vh;
+    margin-top: 10vh;
 }
+*/
+
+ .content {
+/*    margin-left: 8%;*/
+    
+}
+
 /*our store*/
 .store-info {
-  
+   
     
 }
 /*blog*/
-.store-blog a{
+.store-blog a {
       font-style: italic;
     font-size: 20px;
 }
-.store-blog p{
+.store-blog p {
     padding-left:  15px;
 }
 /*support*/
 
 
 /*FOOTER*/
-footer{
-    height: 10vh;
-}
-footer .split{
-    margin-left:20%; 
+footer { 
+    border-top: 2px solid #B6B6B6;
     width:  60%;
+    margin-left: 20%;
+    height: 10vh;
 }
