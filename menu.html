@@ -59,7 +59,7 @@
 
 <body>
 
-
+<div class="container">
 	<header class="row">
 <!--title-->
 	<div  class="col-md-4 col-xs-4 title">	
@@ -80,46 +80,115 @@
         </div>
     </header>
     
-    <section class="menu">
-        <div id="mn-container" class="mn-container">
-            <div class="mn-wrapper">
-                
-            <div class="mn-cover">
-                <div class="mn-front">
-                    <div class="mn-content"></div>
-                </div><!-- /front-->
-                
-                <div class="mn-back">
-                    <div class="mn-content"></div>
-                </div><!-- /back-->
-                </div><!--    end cover-->
-                
-            <div class="mn-middle">
-                <div class="inner">
-                <div class="mn-content">
-                    
-                    
-                    
-                    
-                    
-                    </div>
-                </div><!-- /inner-->
-                <div class="mn-overlay">
-<!--                <div class="content"></div>-->
-             
-                </div><!-- /overlay-->
-                
-                </div><!--  /middle-->
-                
-            <div class="mn-right"></div>
-            
-            </div><!--   end wrapper         -->
-        
-        </div><!--        end container-->
-        
-    
-    </section>
-    
+		
+
+			
+			<section class="main">
+
+				<div id="mn-container" class="mn-container">
+
+					<div class="mn-wrapper">
+
+						<div class="mn-cover">
+
+							<div class="mn-front">
+								<div class="mn-content">
+
+<!--
+									<div class="mn-logo"></div>
+									<h2>Gourmet Castle</h2>
+									<h3>Fine Dining &amp; Gourmet Takeaway</h3>
+-->
+
+									<a href="#" class="mn-button-open">View the Menu</a>
+<!--
+									<div class="mn-info">
+										<p>
+										<strong>Gourmet Castle Restaurant</strong><br>
+										246 Wonderful Paradise Ln.<br>
+										Pasadena, CA 91101<br>
+										<strong>Phone</strong> 626.511.1170<br>
+										<strong>Fax</strong> 626.992.1020</p>
+									</div>
+-->
+
+								</div><!-- /mn-content -->
+							</div><!-- /mn-front -->
+
+							<div class="mn-back">
+								<div class="mn-content">
+
+									<h4>Appetizers</h4>
+
+								</div><!-- /mn-content -->
+								<div class="mn-overlay"></div>
+
+							</div><!-- /mn-back -->
+
+						</div><!-- /mn-cover -->
+
+						<div class="mn-middle">
+							<div class="mn-inner">
+								<div class="mn-content">
+
+									<h4>Main Courses</h4>
+									
+
+								</div><!-- /mn-content -->
+								<div class="mn-overlay"></div>
+							</div><!-- /mn-inner -->
+						</div><!-- /mn-middle -->
+
+						<div class="mn-right">
+
+							<div class="mn-front">
+								
+							</div>
+
+							<div class="mn-back">
+								<span class="mn-close">Close</span>
+								<div class="mn-content">
+
+									<h4>Desserts</h4>
+									<dl>
+										<dt><a href="http://herbivoracious.com/2012/08/crepes-with-roasted-french-plums-yogurt-and-honey.html" class="mn-viewdetails" data-thumb="images/5.jpg">French Plum Crepes</a></dt>
+										<dd>Crepes with roasted french plums, yogurt &amp; honey</dd>
+										
+										<dt><a href="http://herbivoracious.com/2012/05/butterscotch-pudding-with-bittersweet-ganache-and-caramelize-white-chocolate-crunchies-recipe.html" class="mn-viewdetails" data-thumb="images/6.jpg">Butterscotch Pudding</a></dt>
+										<dd>Butterscotch pudding with bittersweet ganache and caramelize white chocolate crispies</dd>
+										
+										<dt><a href="http://herbivoracious.com/2009/12/gateaux-de-crepes-recipe.html" class="mn-viewdetails" data-thumb="images/12.jpg">Chocolate Gâteau de Crêpes</a></dt>
+										<dd>Gâteau de crêpes with chocolate pastry cream and dulce de leche</dd>
+										
+										<dt><a href="http://herbivoracious.com/2009/05/dutch-baby-with-sauteed-apples-giant-ovenbaked-pancakes-recipe.html" class="mn-viewdetails" data-thumb="images/10.jpg">Dutch Baby With Sauteed Apples</a></dt>
+										<dd>Dutch ginat oven-baked pancakes with sauteed apples</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/08/blueberry-napol.html" class="mn-viewdetails" data-thumb="images/7.jpg">Blueberry Napoleon</a></dt>
+										<dd>Blueberry Napoleon with crème fraîche and raspberry powder</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/09/rings-of-saturn.html" class="mn-viewdetails" data-thumb="images/2.jpg">Rings of Saturn</a></dt>
+										<dd>Saturn peach on challah french toast</dd>
+										
+										<dt><a href="http://herbivoracious.com/2008/04/recipe-atayef.html" class="mn-viewdetails" data-thumb="images/9.jpg">Classic Atayef</a></dt>
+										<dd>Syrian ricotta-filled dessert pancakes</dd>
+									</dl>
+-->
+<!--
+									<div class="mn-order">
+										<p><strong>Would you like us to cater your event?</strong> Call us &amp; we'll help you find a venue and organize the event: <strong>626.511.1170</strong></p>
+									</div>
+-->
+								</div><!--mn-content -->
+							</div><!-- /mn-back -->
+
+						</div><!-- /mn-right -->
+					</div><!-- /mn-wrapper -->
+
+				</div><!-- /mn-container -->
+
+			</section>
+			
+	
 
     
     <footer class="row">
@@ -140,13 +209,31 @@
     
     </footer>
     
-    
+    </div>
+    	<!-- jQuery if needed -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				Menu.init();
+			
+			});
+		</script>
 
 <!-- jquery -->
-<script src="assets/js/libs/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 <!--js file-->
 <script src="assets/js/app.js"></script>
+    <script src="assets/js/men.js"></script>
+    <script type="text/javascript">
+			$(function() {
+
+				Menu.init();
+			
+			});
+		</script>
     
 <script>$(document).ready(initPage);</script>
 
@@ -165,6 +252,5 @@
 </script>
 -->
 
-
     </body>
-    </html>
+</html>

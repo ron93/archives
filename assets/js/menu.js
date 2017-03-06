@@ -12,7 +12,7 @@ var $container = $( '#mn-container' ),
 	$details = $container.find( 'a.mn-viewdetails' ),
     
     
-    //event for openi/closing menu and showing modal(details)
+    //event for opening/closing menu and showing modal(details)
     init = function(){
         
         initEvent();
@@ -39,16 +39,16 @@ var $container = $( '#mn-container' ),
     },
     
     
-    //function that adds class(.nm-open) to container to open menu
+    //function that adds class(.mn-open) to container to open menu
     openMenu = function(){
         
-        $container.addClass('nm-open');
+        $container.addClass('mn-open');
         
     },
     //function that removes classes() to container to close menu
     closeMenu = function(){
         
-        $container.removeClass('nm-open nm-nodelay nm-in');
+        $container.removeClass('mn-open mn-nodelay mn-in');
     },
     
     //to show menu item details
@@ -73,11 +73,11 @@ See the recipex
 
 	setTimeout( function() {
 
-		$container.addClass( 'nm-in nm-nodelay' );
+		$container.addClass( 'mn-in mn-nodelay' );
 
-		$modal.find( 'span.nm-close-modal' ).on( 'click', function() {
+		$modal.find( 'span.mn-close-modal' ).on( 'click', function() {
 
-			$container.removeClass( 'nm-in' );
+			$container.removeClass( 'mn-in' );
 
 		} );
 	
@@ -85,5 +85,6 @@ See the recipex
 
 };
 
+	return { init : init };
 
 })();
