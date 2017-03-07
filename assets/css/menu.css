@@ -11,6 +11,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.main{
+    margin-top: 15vh;
+}
 
 .mn-container {
 	width: 33%;
