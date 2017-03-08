@@ -9,7 +9,7 @@ body{
 
 /*HEADER*/
 header{
-background:#2D2206;
+background:#fff;
     padding: 3vh;
     position: fixed;
     z-index:  100;
@@ -125,11 +125,64 @@ footer{
 }
 .social{
     text-align: center;
+    padding-top: 2em;
     
 }
-.social i{
-    color:#2D2206;
-    font-size:  40px;
-    margin-top:  3vh;
+/*icon*/
+i{
+    
 }
 
+.social > i{
+    color:#2D2206;
+    font-size:  58px;
+/*    margin-top:  2em;*/
+    padding-top: 7px;
+    display: inline-block;
+	cursor: pointer;
+	margin: 15px 30px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+/*	color: #fff;*/
+    border-radius: 100%;
+    box-shadow: 0 0 0 3px #fff;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.social i:after{
+   	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+	background: #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+/*hover effect*/
+.social i:hover {
+	color: #eea303;
+}
+
+.social i:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+}
