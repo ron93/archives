@@ -14,7 +14,7 @@ background:#fff;
     position: fixed;
     z-index:  100;
     width: 120%;
-    border-bottom: 2px solid  #e6b741;
+    border-bottom: 4px solid  #2D2206;
 }
 /*title*/
 h1{
@@ -182,8 +182,10 @@ button a{
 /*FOOTER*/
 
 footer{
+    border-top:  3px solid #06112D;
+    text-align: center;
     height: 20vh;
-    background:#06112D ;
+    background:#fff ;
 }
 .social{
     text-align: center;
@@ -197,9 +199,8 @@ i{
 
 .social > i{
     color:#2D2206;
-    font-size:  58px;
-/*    margin-top:  2em;*/
-    padding-top: 7px;
+    font-size:  50px;
+    padding-top: 10px;
     display: inline-block;
 	cursor: pointer;
 	margin: 15px 30px;
@@ -209,9 +210,9 @@ i{
 	text-align: center;
 	position: relative;
 	z-index: 1;
-/*	color: #fff;*/
+	color: #fff;
     border-radius: 100%;
-    box-shadow: 0 0 0 3px #fff;
+    box-shadow: 0 0 0 3px #06112D;
 	-webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
 	transition: color 0.3s;
@@ -231,7 +232,7 @@ i{
 	left: -2px;
 	padding: 2px;
 	z-index: -1;
-	background: #fff;
+	background: #06112D;
 	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
 	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
 	transition: transform 0.2s, opacity 0.2s;
