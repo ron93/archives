@@ -104,10 +104,11 @@ padding-top: 4vh;
 
 button{
     background:#2D2206;
-    height: 5vh;
+    height: 5em;
     margin-top:  3vh;
-    margin-left: 45%;
+    margin-left: 42%;
     margin-bottom: 2vh;
+    border-radius:  25%;
 	display: block;
 	border: none;
 	background: none;
