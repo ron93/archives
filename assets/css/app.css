@@ -14,6 +14,7 @@ background:#fff;
     position: fixed;
     z-index:  100;
     width: 120%;
+    border-bottom: 2px solid  #e6b741;
 }
 /*title*/
 h1{
@@ -102,20 +103,81 @@ padding-top: 4vh;
 
 
 button{
-    background:#e6b741;
+    background:#2D2206;
     height: 5vh;
-    width: 10%;
     margin-top:  3vh;
     margin-left: 45%;
     margin-bottom: 2vh;
+	display: block;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+button:focus {
+	outline: none;
 }
 
 button a{
-    border-right:  1px solid grey;
-    height:  3vh;
-    padding-right: 7%;
-    margin-right:  5%;
+    font-weight: 700;
 }
+
+/* button hover effect*/
+.button--effect {
+	width: 240px;
+	color: #fff;
+}
+.button--effect{
+	color:#2D2206;
+}
+.button--effect::before,
+.button--effect::after {
+	content: '';
+	border-radius: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+	transition: transform 0.3s, background-color 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.25, 0, 0.3, 1);
+}
+.button--effect::before {
+	border: 2px solid ;
+}
+.button--effect.button--inverted::before {
+	border-color: #fff;
+}
+.button--effect::after {
+	background: #e6b741;
+}
+.button--effect.button--inverted::after {
+	background: #fff;
+}
+.button--effect:hover::before {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+.button--effect::before,
+.button--effect:hover::after {
+	-webkit-transform: scale3d(0.7, 0.7, 1);
+	transform: scale3d(0.7, 0.7, 1);
+}
+.button--effect:hover::after {
+	background-color: #e6b741;
+}
+.button--effect.button--inverted:hover::after {
+	background-color: #fff;
+}
+
+
 
 /*FOOTER*/
 
