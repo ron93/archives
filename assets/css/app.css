@@ -14,7 +14,7 @@ background:#fff;
     position: fixed;
     z-index:  100;
     width: 120%;
-    border-bottom: 4px solid  #2D2206;
+    border-bottom: 4px solid #eea303;
 }
 /*title*/
 h1{
@@ -43,7 +43,7 @@ h1{
     height:  70vh;
 /*    background:  grey;*/
 }
-.border-line{
+.b-top{
     background:#e6b741;
     height: 7px; 
 }
@@ -181,22 +181,24 @@ button a{
 
 
 /*FOOTER*/
-
+.b-bottom{
+height: 2px;
+background: #eea303;
+width:80%;;
+margin-left: 10%;
+}
 footer{
-    border-top:  3px solid #06112D;
     text-align: center;
     height: 20vh;
     background:#fff ;
 }
 .social{
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
     
 }
 /*icon*/
-i{
-    
-}
+
 
 .social > i{
     color:#2D2206;
