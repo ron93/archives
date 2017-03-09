@@ -19,8 +19,10 @@ background:#fff;
 /*title*/
 h1{
     text-align: center;
-    color: #e6b741;
-
+   
+}
+h1 a{
+    color: #06112D;
 }
 
 /*nav*/
@@ -211,6 +213,7 @@ height: 100vh;
 }
 h2{
     text-align: center;
+    color: #06112D;
 }
 /*food gallery*/
 .food-gallery{
@@ -256,6 +259,7 @@ button:focus {
 
 button a{
     font-weight: 700;
+    color: #06112D;
 }
 
 /* button hover effect*/
