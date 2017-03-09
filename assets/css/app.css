@@ -157,7 +157,7 @@ button a{
 	border-color: #fff;
 }
 .button--effect::after {
-	background: #e6b741;
+	background: #eea303;
 }
 .button--effect.button--inverted::after {
 	background: #fff;
