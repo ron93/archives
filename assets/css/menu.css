@@ -13,6 +13,7 @@
 }
 .main{
     margin-top: 15vh;
+
 }
 
 .mn-container {
@@ -84,6 +85,7 @@
 .mn-container .mn-back {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+    
 }
 
 .mn-container .mn-back {
@@ -126,7 +128,7 @@ a.mn-button-open,
 .mn-modal h5 {
 	font-weight: 700;
 	text-transform: uppercase;
-	font-family: 'Arvo', Arial, sans-serif;
+font-family: 'Patrick Hand', cursive;
 }
 
 .mn-logo {

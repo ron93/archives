@@ -5,7 +5,10 @@ body{
     overflow-y: hidden;
 /*    background: white;*/
 }
+button,h2,.hd-nav{
+    font-family: 'Patrick Hand', cursive;
 
+}
 
 /*HEADER*/
 header{
@@ -18,7 +21,9 @@ background:#fff;
 }
 /*title*/
 h1{
-    text-align: center;
+margin-left: 2em;
+    font-family: 'Eagle Lake', cursive;
+
    
 }
 h1 a{
@@ -238,7 +243,7 @@ padding-top: 4vh;
 
 button{
     background:#2D2206;
-    height: 5em;
+    height: 4em;
     margin-top:  3vh;
     margin-left: 42%;
     margin-bottom: 2vh;
@@ -252,13 +257,14 @@ button{
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
+        font-weight: 700;
+    font-size: 20px;
 }
 button:focus {
 	outline: none;
 }
 
 button a{
-    font-weight: 700;
     color: #06112D;
 }
 
