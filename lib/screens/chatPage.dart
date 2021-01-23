@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:holla_me/models/UsersModel.dart';
+import 'package:holla_me/widgets/conversationList.dart';
 
 class ChatPage extends StatefulWidget {
   @override
@@ -75,7 +76,23 @@ class _ChatPageState extends State<ChatPage>{
                   ),
                 ),
               ),
-            ),),
+            ),
+            ),
+            ListView.builder(
+              itemCount: chatUsers.length,
+              shrinkWrap: true,
+              padding: EdgeInsets.only(top: 16),
+              physics: NeverScrollableScrollPhysics(),
+              itemBuilder: (context, index){
+                return ConversationList(
+                  name: chatUsers[index].name,
+                  messageText: chatUsers[index].messageText,
+                  imageUrl: chatUsers[index].imageUrl,
+                  time: chatUsers[index].time,
+                  isMessageRead: (index == 0 || index == 3)?true:false,
+                );
+              },
+            ),
           ],
         ),
       ),
