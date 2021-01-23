@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:holla_me/models/chatMessageModel.dart';
 
 class ChatDetailPage extends StatefulWidget {
   @override
@@ -7,6 +8,8 @@ class ChatDetailPage extends StatefulWidget {
 }
 
 class _ChatDetailPageState extends State<ChatDetailPage>{
+
+
 
   @override
   Widget build(BuildContext context) {
