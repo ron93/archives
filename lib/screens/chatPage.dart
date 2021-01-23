@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:holla_me/models/UsersModel.dart';
 
 class ChatPage extends StatefulWidget {
   @override
@@ -6,6 +7,18 @@ class ChatPage extends StatefulWidget {
 }
 
 class _ChatPageState extends State<ChatPage>{
+
+  List<ChatUsers> chatUsers = [
+    ChatUsers(name: "Jane Russel", messageText: "Awesome Setup", imageUrl: "images/userImage1.jpeg", time: "Now"),
+    ChatUsers(name: "Glady's Murphy", messageText: "That's Great", imageUrl: "images/userImage2.jpeg", time: "Yesterday"),
+    ChatUsers(name: "Jorge Henry", messageText: "Hey where are you?", imageUrl: "images/userImage3.jpeg", time: "31 Mar"),
+    ChatUsers(name: "Philip Fox", messageText: "Busy! Call me in 20 mins", imageUrl: "images/userImage4.jpeg", time: "28 Mar"),
+    ChatUsers(name: "Debra Hawkins", messageText: "Thankyou, It's awesome", imageUrl: "images/userImage5.jpeg", time: "23 Mar"),
+    ChatUsers(name: "Jacob Pena", messageText: "will update you in evening", imageUrl: "images/userImage6.jpeg", time: "17 Mar"),
+    ChatUsers(name: "Andrey Jones", messageText: "Can you please share the file?", imageUrl: "images/userImage7.jpeg", time: "24 Feb"),
+    ChatUsers(name: "John Wick", messageText: "How are you?", imageUrl: "images/userImage8.jpeg", time: "18 Feb"),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
