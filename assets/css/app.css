@@ -1,0 +1,135 @@
+/*gen styles*/
+body {
+    overflow-x:hidden;
+}
+.empty-edge {
+/*    empty div occupying the edge of a section*/
+}
+.split {
+    height: 2px;
+    background:#B6B6B6;
+}
+
+/*HEADER*/
+header {
+    padding-top:  2vh;
+    background: #ffffff;
+    padding-bottom: 1vh;
+      z-index: 100;
+    position: sticky;
+}
+
+/*title*/
+.title {
+    
+    
+}
+.title h1 {
+    padding-left:  40%;
+    border-right: 1px solid grey;
+    font-size:  25px;
+}
+/*nav*/
+.nav {
+    font-size:  15px;
+}
+
+/*cart*/
+.cart {
+    height: 8vh;
+    width: 10vh;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.cart i {
+    padding-left: 40%;
+   font-size: 50px;
+}
+
+/*banner*/
+.banner { 
+    background: #B6B6B6;
+    height: 40vh;
+    
+}
+.banner-message {
+    color: #ffffff;
+margin-left: 15%;
+    margin-top: 5%;
+}
+button {
+    height: 10vh;
+    width: 20vh;
+}
+
+/*PRODUCT*/
+
+.product {
+    padding-top: 10vh;
+    background: whitesmoke;
+    padding-bottom: 10vh;
+}
+h3 {
+    text-align: center;
+    margin-top: 2vh;
+}
+.products-nav{
+    background:grey;
+}
+/*products container*/
+figure {
+    height:  60vh;
+    width: 100%;
+    border:5px solid black;
+    margin: 1.5%;;
+}
+/*
+.discount{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 10vh;
+    width: 20%;
+    background: red;
+    z-index: 999;
+}
+*/
+figcaption {
+/*    margin-left: 45%;*/
+   text-align: center;
+}
+
+
+
+/*latest products*/
+.latest {
+    margin-top: 5vh;
+}
+/*popular products*/
+
+.popular,.men,.women {
+    margin-top: 5vh;
+}
+
+/*INFO*/
+
+.info {
+    padding-top:2vh;
+    height: 20vh;
+}
+
+.social i {
+    font-size: 50px;
+    padding-left: 45%;
+    margin-top: 5vh;
+}
+
+/*FOOTER*/
+footer { 
+    border-top: 2px solid #B6B6B6;
+    width:  60%;
+    margin-left: 20%;
+    height: 10vh;
+}
+footer p {
+    text-align: center;
+}
