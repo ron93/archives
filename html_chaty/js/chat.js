@@ -1,0 +1,1 @@
+var Firebase = new Firebase('chaty-90d55.firebaseio.com');

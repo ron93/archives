@@ -1,0 +1,111 @@
+
+body{
+    
+}
+/*body container*/
+.container{
+    height: 50em;
+    width: 100%;
+     border: 1px solid #99C797; 
+   background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+/*SIDEBAR*/
+.side-bar{
+    height: 50em;
+    border: 1px solid #99C797; 
+    background-color: #99C797;
+    opacity: 0.8;
+}
+nav a{
+    font-size: 100%;
+}
+/*h1*/
+h1{
+font-size: 40px;
+    color: #0A1E12;
+    padding-top: 0.5em;;
+    padding-left: 7%;
+}
+h1:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 60%;
+    height: 7em;
+    background-color: #18A422;
+    margin-bottom: 10em;
+    box-shadow:  3px 3px 5px 6px #1C781A; 
+}
+
+
+
+
+
+/*TOP*/
+/*.top{
+      height: 7em;
+    width: 100%;
+    background-color:  #99C797; 
+}*/
+
+/*sign up form*/
+.
+/*#sign-up{
+    border: 1px solid #99C797; 
+    height: 5em;
+    width: 20%;
+    background-color: #99C797; 
+}*/
+.columns a{
+  margin: 10%;
+    
+
+}
+#register{
+    display: none;
+    cursor: pointer;
+    
+}
+#enter{
+    display: none;
+    cursor: pointer;
+}
+/*MID*/
+.mid{
+    padding-top: 10em;
+}
+
+
+
+
+/*chat box*/
+.mess{
+  
+    width: 100%;
+    border: 1px solid #B7E2B5;
+}
+.chat-box input{
+    margin-left: 25%;
+    opacity: 0.8;
+}
+.mid label{
+    color:  #1C781A; 
+}
+
+
+/*FOOTER*/
+/*footer{
+    height: 10em;
+    width: 100%;
+    background-color:  #99C797; 
+    margin-bottom: 0px;
+}*/
+
+
+/*FONTS*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
