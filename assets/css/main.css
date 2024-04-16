@@ -1,0 +1,76 @@
+/*background*/
+body{
+    background-image: url(/assets/img/find.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+}
+/*content*/
+.content{
+    border: 1px solid ;
+    border-radius: 10px;
+    height: 600px;
+    width: 800px;
+background: whitesmoke;
+    opacity: 0.6;
+    margin-left: 300px;
+    margin-top: 400px;
+    
+}
+/*release*/
+.release{
+    
+    padding-top: 20px;
+ text-align: center;
+    
+}
+.res{
+    font-size: 40px;
+  padding-left: 100px;
+}
+/*info*/
+.tell{
+    padding: 50px;
+    font-size: 50px;
+    
+}
+/*h*/
+h2{
+    text-align: center
+}
+/*form*/
+form{
+ padding-left: 50px;
+}
+label{
+    padding: 20px;
+    display: block;
+}
+input{
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+/*button*/
+.buy{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.btn{
+   
+    
+    background-color: aqua;
+
+}
+
+
+/*FONTS*/
+span{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    font-family: 'Simonetta', cursive;
+}
