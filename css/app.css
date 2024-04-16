@@ -1,0 +1,128 @@
+/*body*/
+body{
+  
+ background:;
+    width: 100%;
+    color: black;
+}
+
+.container{
+    
+}
+
+/*header*/
+header{
+    padding: 1em;
+    background: #F0F8FF;
+    border-radius: 5px;
+    height: 11vh;
+}
+h1{
+    font-size: 1em;
+   color: black
+}
+#head{
+  
+}
+.title-bar {
+    background: whitesmoke; 
+    
+}
+#top {
+ background-image: url(../img/help.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+/*
+#top img{
+     position: relative;
+    height: 130vh;
+    width: 100%;
+
+}
+*/
+
+button{
+  position: absolute; 
+    margin-top: 67vh;
+  
+    font-size: 1.5em;
+}
+button{
+    background:#F0F8FF;
+    height: 12vh;
+    width: 15vw;
+    margin-left: 43%;
+    border-radius: 5px;
+}
+
+
+
+
+/*CONTENT*/
+
+/*mid*/
+h2{
+    margin: 5px;
+}
+#mid{
+  height: 120vh;  
+}
+
+#mid .columns{
+    height: 60vh;
+   
+    
+}
+#mid img{
+    
+}
+#mid .same{
+    background:#F0F8FF;
+    
+}
+#mid .about{
+    border-left: 1px solid black;
+    height: 40vh;
+    margin-left: 6vw;
+}
+#mid .test{
+    border-left: 1px solid black;
+    height: 40vh;
+    margin-left: 15vh;
+}
+
+/*the team*/
+
+#team{
+   padding-right: 6vw;
+    height: 130vh;
+    background: whitesmoke;
+}
+
+.pic-one{
+    padding-top: 3vh;
+    
+}
+figure img{
+    height: 50vh;
+   width: 30vw;
+    background: red;
+    text-align: center;
+}
+
+/*FOOTER*/
+#foot{
+    
+    height: 25vh;
+}
+#foot .columns{
+    margin-top: 3vh;
+    border-left: 1px solid black;
+    height: 20vh;
+    
+}
+#foot .follow{
+    border-right: 1px solid black;
+}

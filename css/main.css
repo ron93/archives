@@ -1,0 +1,148 @@
+
+/*======================HEADER===========================*/
+/*heade*/
+header h1{
+    padding-left: 100px;
+        text-align: center;
+}
+h1{
+	
+	height: 200px;
+    width: 400px;
+	color: aqua;
+
+}
+/*nav*/
+
+.top-nav{
+    
+    width: 50%;
+    background-color: aquamarine;
+     opacity: 0.7;
+     border: 2px solid whitesmoke;
+    border-radius: 10px;
+   
+}
+
+.top{
+	font-size: 20px;
+    padding-left:100px;
+    
+}
+.nav{
+    padding-right: 80px;
+    height: 70px;
+    width: 100px;
+    background-color: black;
+}
+
+   
+/*major-head*/
+}
+.head{
+    border-radius: 10px;
+    background-color: skyblue;
+    width: 100%;
+    height: 200px;
+    margin-top: -22px;
+    margin-left: -20;
+    margin-right: -30;
+}
+/*logo*/
+#logo{
+	height: 100px;
+	width: 100px;
+    margin-top: -350px;
+
+    background: url(/img/th.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	
+}
+
+
+/*======================ABOUT=========================*/
+
+.about{
+	border:1px solid whitesmoke;
+	background-color: aqua;
+	opacity: 0.7;
+	border-radius: 10px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+	margin-top:100px;
+	height: 300px;
+	width: 800px;
+    font-size: 20px;
+    padding: 20px;
+}
+/*==========================CONTACTS=========================*/
+.contacts{
+	border: 1px solid whitesmoke;
+	background-color: aqua;
+	opacity: 0.7;
+	padding: 20px;
+	height: 400px;
+	width: 600px;
+	border-radius: 10px;
+	margin-left:320px;
+	color: black;
+}
+/*form*/
+input{
+    height: 50px;
+    width: 300px;
+	margin: 20px;
+    border-radius: 10px;
+}
+#submit{
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+/*================FOOTER=====================================*/
+footer{
+	border:1px solid whitesmoke;
+	border-radius: 10px;
+	background-color: aqua;
+	height: 100px;
+	width: 400px;
+	
+	margin-top: 50px;
+}
+.bottom{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+/*================
+FONTS
+=========================*/
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+.class{
+    width:100%;
+    height: 300px;
+}
+
+
+
+
+h2{
+	text-align: center;
+	color: black;
+}
